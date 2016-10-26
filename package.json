@@ -1,12 +1,18 @@
 {
   "name": "chatcat",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "4.2.2"
+  },
   "dependencies": {
-    "connect-mongo": "1.1.0",
+    "connect-mongo": "0.8.2",
     "ejs": "2.3.4",
     "express": "4.13.3",
     "express-session": "1.12.1",
@@ -19,12 +25,5 @@
     "socket.io": "1.4.4",
     "socket.io-redis": "1.0.0",
     "winston": "2.1.1"
-  },
-  "devDependencies": {},
-  "author": "Rahul <srivasrk@mail.uc.edu>",
-  "license": "ISC",
-  "description": "",
-  "engines": {
-    "node": "6.5.0"
   }
 }
