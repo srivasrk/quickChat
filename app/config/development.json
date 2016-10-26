@@ -1,0 +1,22 @@
+{
+  "host": "http://localhost:3000",
+  "dbURI": "mongodb://srivasrkchatcat:srivasrkchatcat@ds059316.mlab.com:59316/srivasrkchatcatdb",
+  "sessionSecret": "catscanfly",
+  "fb": {
+    "clientID": "804436169694773",
+    "clientSecret": "b2dd481bec1d6d3a1db8b9eb5f648584",
+    "callbackURL": "//localhost:3000/auth/facebook/callback",
+    "profileFields": ["id", "displayName", "photos"]
+  },
+  "twitter": {
+    "consumerKey": "9HewjyNVA6upsnyy6KTXVDDVN",
+    "consumerSecret": "Do144mKz3OoyGcC2K5qpTGgSmAioAbc7KSDTf4sz0ds8AMkxYU",
+    "callbackURL": "//localhost:3000/auth/twitter/callback",
+    "profileFields": ["id", "displayName", "photos"]
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "password": ""
+  }
+}
