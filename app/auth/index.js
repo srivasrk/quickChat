@@ -31,7 +31,7 @@ module.exports = () => {
                     //Create a new user and return
                     h.createNewUser(profile)
                         .then(newChatUser => done(null, newChatUser))
-                        .catch(error => logger.log('error', 'Error while creating a new user: ' + error))
+                        .catch(error => logger.log('error', 'Error while creating a new user: ' + error));
                 }
             });
 

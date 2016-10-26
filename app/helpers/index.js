@@ -51,7 +51,7 @@ let createNewUser = profile => {
             } else {
                 resolve(newChatUser);
             }
-        })
+        });
     });
 }
 
@@ -64,8 +64,8 @@ let findById = id => {
             } else {
                 resolve(user);
             }
-        })
-    })
+        });
+    });
 }
 
 
@@ -86,9 +86,9 @@ let findRoomByName = (allRooms, room) => {
         } else {
             return false;
         }
-
-        return findRoom > -1 ? true : false;
     });
+        return findRoom > -1 ? true : false;
+
 }
 
 //a function that generates a unique room ID

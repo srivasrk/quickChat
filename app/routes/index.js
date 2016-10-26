@@ -35,13 +35,13 @@ module.exports = () => {
             '/auth/facebook/callback': passport.authenticate('facebook', {
                 //This is the redirect route of the authenticate process succeeds
                 successRedirect: '/rooms',
-                failureReditect: '/'
+                failureRedirect: '/'
             }),
             '/auth/twitter': passport.authenticate('twitter'),
             '/auth/twitter/callback': passport.authenticate('twitter', {
                     //This is the redirect route of the authenticate process succeeds
                     successRedirect: '/rooms',
-                    failureReditect: '/'
+                    failureRedirect: '/'
             }),
             '/logout': (req, res, next) => {
                 req.logout();

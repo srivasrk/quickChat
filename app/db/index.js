@@ -6,7 +6,7 @@ const Mongoose = require('mongoose').connect(config.dbURI);
 
 //Log an error if the connection fails
 Mongoose.connection.on('error', error => {
-    logger.log('error', "MongoDB connection error: " + error);
+	logger.log('error', 'Mongoose connection error: ' + error);
 });
 
 //Create a Schema that defines the structure for storing user data

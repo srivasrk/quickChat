@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35a7e6ea-f0b6-441e-9915-9888a4e310b8" name="Default" comment="" />
+    <list default="true" id="35a7e6ea-f0b6-441e-9915-9888a4e310b8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/auth/index.js" afterPath="$PROJECT_DIR$/app/auth/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/db/index.js" afterPath="$PROJECT_DIR$/app/db/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/index.js" afterPath="$PROJECT_DIR$/app/helpers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logger/index.js" afterPath="$PROJECT_DIR$/app/logger/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes/index.js" afterPath="$PROJECT_DIR$/app/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+    </list>
     <ignored path="ChatCat.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -292,12 +300,12 @@
       <workItem from="1476835780218" duration="5653000" />
       <workItem from="1477010086479" duration="147000" />
       <workItem from="1477010275324" duration="3080000" />
-      <workItem from="1477238567453" duration="11603000" />
+      <workItem from="1477238567453" duration="12000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51443000" />
+    <option name="totallyTimeSpent" value="51840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,8 +402,7 @@
           <folding>
             <element signature="e#223#751#0" expanded="false" />
             <element signature="e#775#826#0" expanded="false" />
-            <element signature="e#1060#1482#0" expanded="false" />
-            <element signature="e#2771#3811#0" expanded="false" />
+            <element signature="e#2774#3814#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -429,8 +436,7 @@
           <folding>
             <element signature="e#223#751#0" expanded="false" />
             <element signature="e#775#826#0" expanded="false" />
-            <element signature="e#1060#1482#0" expanded="false" />
-            <element signature="e#2771#3811#0" expanded="false" />
+            <element signature="e#2774#3814#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -527,8 +533,7 @@
           <folding>
             <element signature="e#223#751#0" expanded="false" />
             <element signature="e#775#826#0" expanded="false" />
-            <element signature="e#1060#1482#0" expanded="false" />
-            <element signature="e#2771#3811#0" expanded="false" />
+            <element signature="e#2774#3814#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -547,8 +552,7 @@
           <folding>
             <element signature="e#223#751#0" expanded="false" />
             <element signature="e#775#826#0" expanded="false" />
-            <element signature="e#1060#1482#0" expanded="false" />
-            <element signature="e#2771#3811#0" expanded="false" />
+            <element signature="e#2774#3814#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -567,8 +571,7 @@
           <folding>
             <element signature="e#223#751#0" expanded="false" />
             <element signature="e#775#826#0" expanded="false" />
-            <element signature="e#1060#1482#0" expanded="false" />
-            <element signature="e#2771#3811#0" expanded="false" />
+            <element signature="e#2774#3814#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -692,8 +695,7 @@
           <folding>
             <element signature="e#223#751#0" expanded="false" />
             <element signature="e#775#826#0" expanded="false" />
-            <element signature="e#1060#1482#0" expanded="false" />
-            <element signature="e#2771#3811#0" expanded="false" />
+            <element signature="e#2774#3814#0" expanded="false" />
           </folding>
         </state>
       </provider>
