@@ -22,7 +22,6 @@ app.use(require('morgan')('combined', {
 }));
 
 app.use('/', chatCat.router);
-
 chatCat.ioServer(app).listen(app.get('port'), () => {
     console.log('ChatCat running on Port: ', app.get('port'));
 });
