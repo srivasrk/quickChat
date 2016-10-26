@@ -1,5 +1,5 @@
 # Node Dependencies
-node_modules
+/node_modules
 
 # development json config
-app/config/development.json
+/app/config/development.json
