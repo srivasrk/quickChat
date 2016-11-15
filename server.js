@@ -2,7 +2,7 @@
 
 const express = require('express');
 const app = express();
-const chatCat = require('./app');
+const chatCat = require('./app/');
 const passport = require('passport');
 
 app.set('port', process.env.PORT || 3000);
